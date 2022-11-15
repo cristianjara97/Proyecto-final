@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    background-color: #efefef;
+    background: url(fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header{
+    height: 50px;
+    top: 1px;
+    position: sticky;
+    background-color: rgb(2, 76, 99);
+    color: aliceblue;
+    padding: 20px ;
+    font-size: 15px;
+}
+
+nav {
+    display: flex;
+    float: right;
+}
+
+.button{
+    text-decoration: none;
+    width: 80px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px darkgray;
+    background-color: #F0F5E4;
+    color: #161924;
+}
+
+.button:active{
+    box-shadow: none;
+    transform: translate(3px, 2px);
+}
+
+
+.menu{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}
+
+.presentacion{
+    padding: 17%;
+    text-align: center;
+   height: 50px;
+}
+
+.titulo{
+    color: #ffffff;
+    background-color:  rgb(2, 76, 99, 0.6);
+    display: inline;
+    font-size: 50px;
+}
+
+.contenido{
+    background-color: rgb(2, 76, 99);
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+   padding: 50px;
+    height: 30px;
+    font-size: 25px;
+}
+
+.cont-padre{
+ margin: 0;
+ width: 100%;
+ display: flex;
+ background-color: rgb(2, 76, 99);
+ justify-content: center;
+ align-items: center;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    transition: all 0.6s ease;
+    background-color: #ffffff;
+    margin:50px;
+    cursor: pointer;
+    
+}
+
+.container:hover{
+    box-shadow: 0 0.1rem 1rem rgb(19, 31, 34);
+    width: 410px;
+    height: 410px;
+    margin:47px;
+}
+
+footer{
+    background: #161924;
+    color: #efefef;
+    padding: 2rem 0.25rem;
+}
+
+ footer section{
+    float: right;
+    font-size: small;
+}
+
+footer p{
+    margin: 0;
+    font-size: small;
+}
+
+.historia{
+  
+    width: 50%;
+   height: 100%;
+   text-align: center;
+    background-color: rgb(2, 76, 99);
+    margin:20px;
+
+
+
+}
+
+.historia h2{
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.contenedorVideo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: rgb(2, 76, 99);
+
+}
+.barra{
+    background-color: rgb(112, 106, 98);
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 25px;
+    margin: 0;
+    padding: 25px;
+}
+
+
+#play,#pause{
+    width: 80px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px darkgray;
+ }
+ 
+ .botonesVideo:active{
+     box-shadow: none;
+     transform: translate(3px, 2px);
+ }
+
+
+
+
+
+
+
+ .juego{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(2, 76, 99);
+}
+.cajas{
+    display: flex;
+    flex-direction: row;
+}
+#cajasoltar,#cajasoltar2,#cajasoltar3{
+    width: 275px;
+    height: 400px;
+    display: inline-block;
+    border: 2px solid black;
+    background-color: grey;
+    text-align: center;
+
+}
+
+#cajaimagenes{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 40px;
+}
+#imagen1,#imagen2,#imagen3{
+    width: 275px;
+    height: 400px;
+}
+.reinicio{
+    display: flex;
+    margin: auto;
+    padding: 10px 100px;
+}
